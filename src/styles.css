@@ -6,6 +6,7 @@
   position: relative;
 }
 button {
+  font-family: futura;
   margin: 3px 10px;
   border-radius: 18px;
   border: none;
@@ -13,10 +14,12 @@ button {
   color: white;
   background-color: black;
   padding: 5px 24px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 button:hover {
   background-color: white;
   color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .statusContainer {
   display: flex;
